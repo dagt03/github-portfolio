@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+  <!-- Website Title -->
+  <title>
+    Daniel Galvez | Aspiring Software Engineer
+  </title>
+
+  <meta name="description" content="Daniel Galvez | Senior Computer Science Student at Temple University">
+  <meta name="keywords" content="Daniel Galvez, Java, C/C++, CSS, HTML, SQL, Cybersecurity" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <!-- My Name -->
+          <span>Daniel Galvez</span>
+        </h1>
+        <!-- Small Paragraph About Myself -->
+        <p>Passionate About Security & Efficient Code</p>
+        <a href="#contact" class="btn btn--pink">Get in touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <!-- Info about myself -->
+            <p>
+              Hey there! I'm Daniel, a 21-year-old Computer Science student at Temple
+              University with a strong foundation in problem-solving, time management
+              and software development. Eager to secure an position where I can apply
+              my skills and contribute to meaningful projects. Always ready to learn, 
+              adapt, and make a positive impact.
+            </p>
+            <!-- My resume -->
+            <a href="https://drive.google.com/file/d/1ai7ht6qiY-s5MAHc_SKOLFLYjhQGC0bD/view?usp=sharing" target="_blank" class="btn">My Resume</a>
+          </div>
+
+          <div class="about__photo-container">
+            <!-- Profile Picture -->
+            <img class="about__photo" src="./images/daniel_galvez.jpeg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** Work ***** -->
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2>My Projects</h2>
+        <div class="work__boxes">
+
+          <!-- work__box class is a project -->
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Projects in Progress</h3>
+              <p>
+                Come back soon...
+              </p>
+              <ul class="work__list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>C/C++</li>
+                <li>SQL</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="#contact" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="#contact" title="View Source Code">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-1.jpeg" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <p>
+          Whether you're looking for a passionate developer to collaborate
+          on projects, need tech-related advice, or just have a question—I'm happy to
+          chat! I'm always exploring new technologies and sharpening my skills in software
+          development and cybersecurity. If you have an opportunity, an idea to discuss,
+          or just want to connect, feel free to reach out! The fastest
+          way to get in touch is via email.
+        </p>
+        <!-- Email -->
+        <a href="mailto:dgalvezterrones@gmail.com" class="btn">dgalvezterrones@gmail.com</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <!-- Social Links -->
+      <ul class="footer__social-links">
+
+        <li class="footer__social-link-item">
+          <a href="https://github.com/dagt03/" target="_blank" title="Link to Github Profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+
+        <li class="footer__social-link-item">
+          <a href="https://www.linkedin.com/in/danielgalvezt/" target="_blank" title="Link to LinkedIn">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+</body>
+
+</html>
