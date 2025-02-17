@@ -6,7 +6,8 @@ Welcome to my portfolio! This repository showcases my projects, skills, and expe
 I'm a senior computer science student with a passion for cybersecurity, networking, and software development. Currently, I'm working on projects to enhance my internship prospects.
 
 ## Projects
-In development, come back soon...
+- **Web-based Portfolio**: A personal website showcasing my work and resume.
+- **Website Shoetopia**: An e-commerce website showcasing a variety of shoes.
 
 ## Skills
 - **Languages**: Java, C
